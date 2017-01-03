@@ -38,6 +38,7 @@ alias make='~/.config/ctafconf/bin/colorwarper make'
 alias make_real='`which make`'
 alias ka='killall'
 alias doxygen='~/.config/ctafconf/bin/colorwarper doxygen'
+#alias diff='~/.config/ctafconf/bin/colorwarper diff'
 
 # Quick chmod
 alias 644='chmod 644'
