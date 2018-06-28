@@ -52,7 +52,7 @@ $col_error =        $col_brighten . $col_red;
 $error_highlight =  $col_brighten;
 
 sub is_interactive {
-  return -t STDOUT;
+  return 1;
 }
 
 $| = 1;
@@ -115,6 +115,3 @@ if (is_interactive()) {
 #    'cyan'      => "\033[36m",
 #    'white'     => "\033[37m",
 #    'darkgray'  => "\033[30m");
-
-
-

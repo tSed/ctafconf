@@ -280,8 +280,9 @@ class GrkSetupVim:
 PACKAGES = [ GrkSetupZsh,
              GrkSetupBash,
              GrkSetupTop,
-             GrkSetupEmacs,
-             GrkSetupVim ]
+#             GrkSetupEmacs,
+#             GrkSetupVim
+          ]
 
 def prepare_tree():
   """ create symlink for etc and bin if necessary,
