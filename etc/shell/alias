@@ -126,6 +126,9 @@ alias ll='ls -lF --color=auto'
 alias la='ls -lAF --color=auto'
 alias lg='ls -F --color=auto | grep'
 
+alias ag='ag --case-sensitive --pager="less --quit-if-one-screen --hilite-search --LONG-PROMPT --RAW-CONTROL-CHARS --no-init"'
+alias ag_real='`which ag`'
+
 alias grep='grep --color=auto'
 alias grep_real='`which grep`'
 
